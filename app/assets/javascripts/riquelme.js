@@ -1,3 +1,5 @@
 $(document).ready(function() {
-	console.log('hola');
+	for (var i = 0; i < asdas.length; i++) {
+		
+	};
 });
