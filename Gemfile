@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-#asodijasdoiajsdoiajsd
+#asodijasdoiajsdoiajsdasdasdasi
+#aoidjaosijdaoisjd
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
