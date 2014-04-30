@@ -1,12 +1,12 @@
 class LoginuserController < ApplicationController
   def login
-
   	@ri = Usuario.new({nombre:"riquleme"})
-
-
   end
 
-  def otravista
-  	
-  end
+def crear
+	nombre = params[:nombre]
+	usuarionuevo = Usuario.new({nombre:nombre})
+	usuarionuevo.save
+	render "login"
+end
 end
