@@ -1,6 +1,20 @@
-<form action="/crear" method="POST">	
-	<input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
-	<input type="text" name="nombre">
-	<input type="text" name="telefono">
-	<input type="submit">
-</form>
+<div style="margin:0 auto; width:500px;">
+	<h1>Seguridad Informática</h1>
+	<h2>Equipo:</h2>
+	Antonio Contreras<br>
+	Juan Carlos Hinojo<br>
+	Jorge Riquelme<br><br>
+
+	El proyecto consiste en implementar los conceptos aprendidos durante la clase creando un sitio web en el cual se utilice encriptación, en este caso se encriptarán datos que un usuario agrege.
+	Para que se puedan agregar datos es necesario que un usuario se autentifique, por medio de un login, y agregue información a una base de datos mediante un formulario.
+
+	Sin embargo este login solo es accesible si el usuario se encuentra dentro de la red interna al servidor que hostea el sitio web. Si el usuario no se encuentra dentro de esta red solo sera capaz de navegar dentro del sitio sin realizar un login.
+
+	Para que el usuario pueda ver el login sin estar dentro de la red interna, se conectará a la red del servidor por medio de una VPN.
+
+	*Todo esto se realizará por medio de una red virtual.
+
+	<a href="http://192.168.122.97:80">
+	<img src="../assets/IS_image.jpg" width="400" height="400">
+	</a>
+</div>

@@ -7,6 +7,6 @@ def crear
 	nombre = params[:nombre]
 	usuarionuevo = Usuario.new({nombre:nombre})
 	usuarionuevo.save
-	render "login"
+	render "views/loginsuccesful/views"
 end
 end
